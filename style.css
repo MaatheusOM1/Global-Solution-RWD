@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -60,8 +60,8 @@ nav ul li a:after {
     width: 0;
     height: 3px;
     background: #f28c0f;
-    transition: .5s;
-    bottom: 0;
+    transition: .8s;
+    top: 0;
 }
   
 nav ul li a:hover:after {
