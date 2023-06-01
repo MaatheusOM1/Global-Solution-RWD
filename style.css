@@ -133,7 +133,7 @@ svg{
 }
 
 .cards{
-    margin-top: 10%;
+    margin-top: 3%;
     display: flex;
     justify-content: space-evenly;
   }
@@ -206,7 +206,20 @@ svg{
     cursor: pointer;
   }
 
+.contato{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #02735e;
+    font-size: 32px;
+}
 
+.contatoemp{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #02735e;
+    font-size: 32px;
+    margin-top: 5%;
+}
 
 
 
