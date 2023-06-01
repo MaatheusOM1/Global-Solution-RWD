@@ -206,7 +206,7 @@ svg{
     cursor: pointer;
   }
 
-.contato{
+.contato, .contatoemp{
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
     color: #02735e;
@@ -214,14 +214,8 @@ svg{
 }
 
 .contatoemp{
-    text-align: center;
-    font-family: 'Bebas Neue', sans-serif;
-    color: #02735e;
-    font-size: 32px;
     margin-top: 5%;
 }
-
-
 
 @media (max-width:480px) {
     .integrantesfooter{
