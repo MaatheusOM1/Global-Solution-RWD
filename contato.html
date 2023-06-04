@@ -32,7 +32,7 @@
             <div class="formulario">
                 <div class="box">
                     <label>Nome:</label>
-                    <input type="text" placeholder="Seu Nome:" required>
+                    <input type="text" placeholder="Seu Nome" required>
 
                     <br>
 
@@ -41,27 +41,57 @@
 
                     <br>
 
+                    <label>RG:</label>
+                    <input type="text" placeholder="Seu RG">
+
+                    <br>
+
+                    <label>CPF:</label>
+                    <input type="email" placeholder="Seu CPF" required>
+
                     <label>Sexo:</label>
-                    Masculino<input type="radio">
-                    Feminino<input type="radio">
-                    Prefiro Não Responder<input type="radio">
+                    <select required>
+                        <option>--</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Prefiro Não Responder</option>
+                    </select>
+
+                    <br>
+
+                    <label>Estado Civil:</label>
+                    <select required>
+                        <option>--</option>
+                        <option>Solteiro</option>
+                        <option>Casado</option>
+                        <option>Divorciado</option>
+                        <option>Viúvo</option>
+                        <option>Prefiro Não Responder</option>
+                    </select>
 
                     <br>
 
                     <label>Celular:</label>
                     <input type="tel" placeholder="(00) 00000-0000">
 
-                    <label>Assunto</label>
-                    <input type="text" placeholder="Indique Qual o Assunto:">
+                    <br>
+
+                    <label>Data De Nascimento:</label>
+                    <input type="date">
+
+                    <label>Assunto:</label>
+                    <input type="text" placeholder="Indique Qual o Assunto">
                     
                     <br>
 
-                    <label>Digite Sua Mensagem!</label>
-                    <textarea cols="30" rows="5" required></textarea>
+                    <label>Digite Sua Mensagem:</label>
+                    <textarea cols="30" rows="5" required placeholder="Mensagem"></textarea>
 
                     <br>
 
-                    <input type="submit">
+                    <input type="reset" value="Limpar Campos">
+                    <br>
+                    <input type="submit" value="Enviar Formulário">
                 </div>
             </div>
         </form>
