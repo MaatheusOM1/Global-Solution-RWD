@@ -166,6 +166,8 @@ label{
     width: 160px;
     height: 50px;
     padding: 5px;
+    border-radius: 10px;
+    border: solid black 2px;
 }
 
 #textarea{
@@ -176,10 +178,12 @@ label{
     min-width: 300px;
     min-height: 80px;
     text-align: center;
+    border-radius: 10px;
+    border: solid black 2px;
 }
 
 .input:focus, #textarea:focus{
-    background-color: #02735e;
+    background-color: #f28c0f;
 }
 
 #reset, #submit{
@@ -266,13 +270,30 @@ label{
         height: 100px;
         border-radius: 6px;
     }
+}
 
-    .cards{
-        margin-top: 3%;
+@media (min-width:481px) and (max-width:799px) {
+    .integrantesfooter{
+        height: 60px;
+        font-size: 16px;
+    }
+
+    nav ul{
         display: flex;
-        align-items: center;
         flex-direction: column;
-      }
+        align-items: center;
+    }
+
+    .fotos{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .foto{
+        width: 350px;
+        height: 170px;
+        border-radius: 6px;
+    }
 }
 
 @media (min-width:800px) and (max-width:1000px) {
@@ -301,15 +322,8 @@ label{
     }
     
     .foto{
-        width: 250px;
-        height: 100px;
+        width: 350px;
+        height: 170px;
         border-radius: 6px;
     }
-
-    .cards{
-        margin-top: 3%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-      }
 }
