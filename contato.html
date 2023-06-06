@@ -32,27 +32,27 @@
             <div class="formulario">
                 <div class="box">
                     <label>Nome:</label>
-                    <input type="text" placeholder="Seu Nome" required>
+                    <input class="input" type="text" placeholder="Seu Nome" required>
 
                     <br>
 
                     <label>E-mail:</label>
-                    <input type="email" placeholder="Seu E-mail" required>
+                    <input class="input" type="email" placeholder="Seu E-mail" required>
 
                     <br>
 
                     <label>RG:</label>
-                    <input type="number" placeholder="Seu RG" required>
+                    <input class="input" type="number" placeholder="Seu RG" required>
 
                     <br>
 
                     <label>CPF:</label>
-                    <input type="number" placeholder="Seu CPF" required>
+                    <input class="input" type="number" placeholder="Seu CPF" required>
 
                     <br>
 
                     <label>Sexo:</label>
-                    <select>
+                    <select class="input">
                         <option>--</option>
                         <option>Masculino</option>
                         <option>Feminino</option>
@@ -62,7 +62,7 @@
                     <br>
 
                     <label>Estado Civil:</label>
-                    <select>
+                    <select class="input">
                         <option>--</option>
                         <option>Solteiro</option>
                         <option>Casado</option>
@@ -74,29 +74,32 @@
                     <br>
 
                     <label>Celular:</label>
-                    <input type="tel" placeholder="(00) 00000-0000" required>
+                    <input class="input" type="tel" placeholder="(00) 00000-0000" required>
 
                     <br>
 
                     <label>Data De Nascimento:</label>
-                    <input type="date" required>
+                    <input class="input" type="date" required>
+
+                    <br>
 
                     <label>Assunto:</label>
-                    <input type="text" placeholder="Indique Qual o Assunto">
+                    <input class="input" type="text" placeholder="Indique Qual o Assunto">
                     
                     <br>
 
                     <label>Digite Sua Mensagem:</label>
-                    <textarea cols="30" rows="5" required placeholder="Mensagem"></textarea>
+                    <textarea id="textarea" cols="30" rows="5" required placeholder="Mensagem"></textarea>
 
                     <br>
 
-                    <input type="submit" value="Enviar" id="submit">
+                    <input class="input" type="submit" value="Enviar" id="submit">
                     <br>
-                    <input type="reset" value="Limpar Campos" id="reset">
+                    <input class="input" type="reset" value="Limpar Campos" id="reset">
                 </div>
             </div>
         </form>
+        <div class="rodape"></div>
         <div class="rodape"></div>
     </main>
 
